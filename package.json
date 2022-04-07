@@ -1,0 +1,19 @@
+{
+  "name": "simple-http",
+  "version": "2.0.0",
+  "description": "a simple http request for get and post method",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maestrowscki10/fakeAPI.git"
+  },
+  "author": "maestrowscki10",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maestrowscki10/fakeAPI/issues"
+  },
+  "homepage": "https://github.com/maestrowscki10/fakeAPI#readme"
+}
