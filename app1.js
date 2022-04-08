@@ -10,7 +10,9 @@ const http = easyHTTP
 
 const data ={
     name:'rahim', 
-    username:'maestrowscki10'
+    username:'maestrowscki10',
+    mobile:'255744554546',
+    email :'abdulhansen.ah@gmail.com'
 
 }
 
