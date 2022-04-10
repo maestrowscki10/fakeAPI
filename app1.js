@@ -1,7 +1,4 @@
-
-
-
-const http = easyHTTP
+const http = new EasyHTTP
 // //get
 // http.length('https://jsonplaceholder.typicode.com/users')
 //   .then(data=>console.log(data))
@@ -15,7 +12,12 @@ const data ={
     email :'abdulhansen.ah@gmail.com'
 
 }
-
-http.put('https://jsonplaceholder.typicode.com/users',data)
+//update post
+http.put('https://jsonplaceholder.typicode.com/users/2',data)
  .then(data=>console.log(data))
    .catch(err=>console.log(err))
+
+   //delete user
+  http.put('https://jsonplaceholder.typicode.com/users/2')
+ .then(data=>console.log(data))
+  .catch(err=>console.log(err))
