@@ -1,3 +1,4 @@
+const EasyHTTP = require ('./app')
 const http = new EasyHTTP
 // //get
 // http.length('https://jsonplaceholder.typicode.com/users')
